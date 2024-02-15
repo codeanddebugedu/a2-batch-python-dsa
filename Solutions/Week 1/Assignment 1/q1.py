@@ -6,8 +6,8 @@ The overall expression is False (False and True).
 
 2) a >= 5 or not b > 10
 a is 5, which is equal to 5. So, the first part (a >= 5) is True.
-b is 10, which is greater than 10. So, the second part (not b > 10) is False.
-The overall expression is True (True or False).
+b is 10, which is greater than 10. So, the second part (not b > 10) is True.
+The overall expression is True (True or True).
 
 3) not ( a > 5 and b > 5)
 a is 5, which is not greater than 5. So, the first part (a > 5) is False.
