@@ -14,9 +14,9 @@ my age is ..
 # b = float(input("Enter number 2 = "))
 
 # print(a + b)
-name = input("Enter your name")
-age = int(input("Enter your age"))
-gender = input("Enter your gender")
+name: str = input("Enter your name")
+age: int = int(input("Enter your age"))
+gender: str = input("Enter your gender")
 
 print("your name is ", name)
 print("your age is ", age)
