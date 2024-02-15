@@ -8,7 +8,7 @@ total_games = int(input("Enter the total number of games played in the tournamen
 
 wins = int(input("Enter the number of games won = "))
 
-losses = total_games - wins
+losses = int(input("Enter the number of games lost = "))
 
 ties = total_games - wins - losses
 
