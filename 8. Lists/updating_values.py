@@ -7,11 +7,11 @@ print(a)
 #     else:
 #         a[index] = a[index] - 1
 # print(a)
-for i in range(0, len(a)):
-    if i % 2 == 0:
-        a[i] = a[i] + 1
+for index in range(0, len(a)):
+    if index % 2 == 0:
+        a[index] = a[index] + 1
     else:
-        a[i] = a[i] - 1
+        a[index] = a[index] - 1
 
 print(a)
 # a[0] = 100
