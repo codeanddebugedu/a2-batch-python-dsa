@@ -5,10 +5,10 @@ FOR loop and WHILE loop.
 
 my_list = [43, 65, "Elon", "Ambani", False, 55.43]
 
-# for i in range(0, len(my_list)):
+# for i in range(len(my_list) - 1, -1, -1):
 #     print(my_list[i])
 
-i = 0
-while i < len(my_list):
+i = len(my_list) - 1
+while i > -1:
     print(my_list[i])
-    i += 1
+    i -= 1
