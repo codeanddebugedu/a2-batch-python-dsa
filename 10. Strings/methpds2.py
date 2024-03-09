@@ -1,0 +1,20 @@
+# x = string.lower()
+# x = string.upper()
+# x = string.title()
+# x = string.capitalize()
+# x = string.swapcase()
+# x = string.islower()
+# x = string.isupper()
+# x = string.isalpha()
+# x = string.isalnum()
+# x = string.isdigit()
+
+
+string = " 2  abczzabczzz      "
+# x = string.replace("z", "i")
+# x = string.index("p")
+# x = string.find("z")
+# x = string.rfind("z")
+# print(string, "|", len(string))
+# x = string.strip()
+# print(x, "|", len(x))
