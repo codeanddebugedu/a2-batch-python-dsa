@@ -12,7 +12,7 @@ def mergeList(dictionary: Dict) -> List:
     result = []
     for v in dictionary.values():
         # result.extend(v) # Method 1
-        result = result + v  # Method 2
+        # result = result + v  # Method 2
         for i in v:
             result.append(i)
 
