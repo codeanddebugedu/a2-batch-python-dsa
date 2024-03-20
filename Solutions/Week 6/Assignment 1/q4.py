@@ -9,7 +9,7 @@ student_data = [
 ]
 
 sorted_student_data = sorted(
-    student_data, key=lambda x: sum(x[list(x.keys())[0]]["marks"])
+    student_data, key=lambda x: sum(list(x.values())[0]["marks"])
 )
 
 for details in sorted_student_data:
