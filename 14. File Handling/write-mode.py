@@ -1,0 +1,5 @@
+f = open("anirudh.txt", "w")
+# f.write("Anirudh Khurana\n")
+# f.write("Hello World")
+f.write("pqr\n")
+f.close()
